@@ -1,0 +1,17 @@
+.navbar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbasics {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.navreg {
+  display: flex;
+  flex-direction: row;
+  
+}
