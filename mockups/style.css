@@ -1,0 +1,181 @@
+,
+body {
+  background-color: #1b202b;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1000px;
+  margin-bottom: 100px;
+}
+
+.navbasics {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.navreg {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.getstarted {
+  border: none;
+  background-color: #5adece;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  width: 150px;
+}
+
+.login-card {
+  height: 250px;
+  width: 300px;
+  border: 1px solid red;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sgnInBtn {
+  background-color: #5adece;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  padding: 10px;
+  width: 100px;
+  margin-top: 40px;
+}
+
+.login-card input {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-email {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+}
+
+.input-password {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.card {
+  height: 400px;
+  width: 350px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.card h3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 240px;
+}
+
+.btn-more-info {
+  background-color: #5adece;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  border-radius: 25px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.container-create {
+  height: 200px;
+  width: 300px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-create h3 {
+  text-align: center;
+}
+
+.create-cancel-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.department {
+  margin-top: 10px;
+}
+
+.create-btn {
+  background-color: #5adece;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  border-radius: 25px;
+}
+
+.cancel-btn {
+  background-color: #5adece;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  border-radius: 25px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.other-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
