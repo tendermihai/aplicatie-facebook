@@ -1,4 +1,3 @@
-,
 body {
   background-color: #1b202b;
 }
@@ -9,6 +8,11 @@ body {
   flex-direction: row;
   gap: 1000px;
   margin-bottom: 100px;
+  color: white;
+}
+
+li {
+  list-style: none;
 }
 
 .navbasics {
@@ -17,6 +21,16 @@ body {
   gap: 20px;
 }
 
+a {
+  color: white;
+}
+.main {
+  color: white;
+}
+
+.footer {
+  color: white;
+}
 .navreg {
   display: flex;
   flex-direction: row;
@@ -36,6 +50,7 @@ body {
   height: 250px;
   width: 300px;
   border: 1px solid red;
+  border-radius: 25px;
 }
 
 .container {
@@ -43,6 +58,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: white;
 }
 
 .sgnInBtn {
@@ -74,6 +90,7 @@ body {
   flex-direction: row;
   margin-top: 20px;
   gap: 10px;
+  margin-right: 22px;
 }
 
 .card {
@@ -84,6 +101,7 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  border-radius: 25px;
 }
 
 .card h3 {
@@ -106,17 +124,20 @@ body {
   flex-direction: row;
   gap: 10px;
   justify-content: center;
+  color: white;
 }
 
 .container-create {
   height: 200px;
-  width: 300px;
+  width: 500px;
   border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  color: white;
+  border-radius: 25px;
 }
 
 .container-create h3 {
@@ -156,6 +177,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 150px;
+}
+
+.main p {
+  margin-top: 10px;
+}
+
+.getstarted {
+  margin-top: 100px;
 }
 
 .footer {
@@ -163,6 +193,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #0c1320;
 }
 
 .footer-options {
@@ -178,4 +209,31 @@ body {
 .contact {
   display: flex;
   flex-direction: column;
+}
+
+.loginInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-name {
+  padding: 10px;
+}
+
+.department {
+  padding: 10px;
+}
+
+.create-course {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.container-create h3 {
+  margin-top: 50px;
 }
